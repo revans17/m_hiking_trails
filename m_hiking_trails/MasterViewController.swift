@@ -92,8 +92,19 @@ class MasterViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
 
         let selectedTrail = hiking_trails_array[indexPath.row] as! hiking_trails
-        cell.textLabel!.text = selectedTrail.TrailName
         
+        tableView.separatorColor = UIColor.brown
+        tableView.tableFooterView = UIView(frame: CGRect( x:0.0, y:0.0, width:0.0, height:0.0))
+        cell.imageView?.contentMode = .scaleAspectFit
+        cell.imageView!.layer.cornerRadius = 20
+        cell.imageView!.clipsToBounds = true
+        cell.textLabel!.text = selectedTrail.TrailName
+        let imgURL = URL(string: "http://www.protogic.com/images/" + (selectedTrail.TrailImage))
+        let dataBytes = try? Data(contentsOf: imgURL!)
+        let img = UIImage(data: dataBytes!)
+        cell.imageView?.image = img
+        
+
         cell.detailTextLabel!.text = selectedTrail.TrailDifficulty
         
         return cell
