@@ -13,6 +13,7 @@
 		84E2FE3F21911A600088C88D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E2FE3D21911A600088C88D /* Main.storyboard */; };
 		84E2FE4121911A610088C88D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E2FE4021911A610088C88D /* Assets.xcassets */; };
 		84E2FE4421911A610088C88D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E2FE4221911A610088C88D /* LaunchScreen.storyboard */; };
+		84E2FE4C21911C1D0088C88D /* hiking_trails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2FE4B21911C1D0088C88D /* hiking_trails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		84E2FE4021911A610088C88D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E2FE4321911A610088C88D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E2FE4521911A610088C88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E2FE4B21911C1D0088C88D /* hiking_trails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiking_trails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				84E2FE4021911A610088C88D /* Assets.xcassets */,
 				84E2FE4221911A610088C88D /* LaunchScreen.storyboard */,
 				84E2FE4521911A610088C88D /* Info.plist */,
+				84E2FE4B21911C1D0088C88D /* hiking_trails.swift */,
 			);
 			path = m_hiking_trails;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				84E2FE3C21911A600088C88D /* DetailViewController.swift in Sources */,
 				84E2FE3A21911A600088C88D /* MasterViewController.swift in Sources */,
+				84E2FE4C21911C1D0088C88D /* hiking_trails.swift in Sources */,
 				84E2FE3821911A600088C88D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
